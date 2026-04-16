@@ -178,7 +178,7 @@ function embedCodeToTarget(targetDiv, codeText, showBorder, showLineNumbers, sho
   targetDiv.style.margin = "1em 0";
 
   const code = document.createElement("code");
-  code.style.padding = "1rem";
+  code.style.padding = "0";
 
   if (showFileMeta) {
     code.style.borderRadius = "0.3rem 0.3rem 0 0";
